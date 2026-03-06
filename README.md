@@ -45,6 +45,3 @@ El desarrollo se dividió en fases técnicas rigurosas para asegurar la integrid
 *Full Stack Developer & Systems Engineer*
 
 > "Combinando la robustez de la ingeniería de sistemas con la agilidad del desarrollo web y el poder de los datos."
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/tu-perfil)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-lightgrey?style=flat&logo=github)](https://github.com/lindlabs)
