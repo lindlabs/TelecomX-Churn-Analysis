@@ -1,30 +1,50 @@
-# Análisis de Evasión de Clientes (Churn) - Telecom X 🚀
+# Telecom X: Intelligence Churn Analysis
+### Transformando datos en estrategias de retención de clientes
 
-## Descripción del Proyecto
-Este proyecto consiste en un análisis de datos integral para identificar por qué los clientes de la compañía Telecom X cancelan sus servicios. A través de un proceso de ETL (Extracción, Transformación y Carga) y un Análisis Exploratorio de Datos (EDA), identificamos patrones críticos que permiten a la empresa tomar decisiones estratégicas para mejorar la retención.
-
-## Tecnologías Utilizadas
-* **Python 3.12**
-* **Pandas**: Manipulación y limpieza de datos.
-* **Matplotlib & Seaborn**: Visualización de datos y matrices de correlación.
-* **Google Colab**: Entorno de desarrollo en la nube.
-
-## Estructura del Análisis
-1. **Limpieza de Datos**: Aplanamiento de JSON, manejo de valores nulos y conversión de tipos de datos (Object a Float64).
-2. **Transformación**: Traducción de variables al español y creación de la métrica `Cuentas_Diarias`.
-3. **EDA (Análisis Exploratorio)**: Visualización de la distribución de Churn y relación con variables categóricas (Contratos, Métodos de Pago).
-4. **Análisis Estadístico**: Uso de `describe()` y matrices de correlación para validar hipótesis.
-
-## Hallazgos Principales (Insights)
-* **Tasa de Abandono**: 25.72%.
-* **Contratos**: Los clientes con contrato "Mes a mes" representan el mayor riesgo de fuga.
-* **Permanencia**: El riesgo de abandono es crítico durante los primeros 10 meses de antigüedad.
-
-## Cómo Ejecutar el Proyecto
-1. Clona este repositorio.
-2. Abre el archivo `.ipynb` en Google Colab o Jupyter Notebook.
-3. Asegúrate de tener instaladas las dependencias: `pip install pandas matplotlib seaborn`.
-4. Ejecuta las celdas en orden secuencial.
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Library-Pandas-150458?logo=pandas)
+![Seaborn](https://img.shields.io/badge/Visualization-Seaborn-444444)
+![Status](https://img.shields.io/badge/Project-Completed-green)
 
 ---
-**Autor:** Kleidex - Full Stack Developer & Systems Engineer
+
+## Resumen Ejecutivo
+Este proyecto aborda el desafío crítico de la **evasión de clientes (Churn)** en la industria de las telecomunicaciones. Mediante un flujo de trabajo de Ciencia de Datos (ETL + EDA), se analizaron los comportamientos de consumo y perfiles de usuario de **Telecom X** para identificar los factores que disparan la cancelación de servicios.
+
+## Stack Tecnológico
+* **Lenguaje:** Python 3.12.
+* **Procesamiento:** Pandas (Limpieza de nulos, aplanamiento de JSON y tipado de datos).
+* **Visualización:** Matplotlib & Seaborn (Análisis de tendencias y mapas de calor).
+* **Entorno:** Google Colab (Cloud Computing).
+
+## Arquitectura del Análisis
+El desarrollo se dividió en fases técnicas rigurosas para asegurar la integridad de los insights:
+
+1.  **Pipeline de Datos (ETL):** Aplanamiento de estructuras complejas, tratamiento de errores de casteo (`IntCastingNaNError`) y estandarización de métricas financieras.
+2.  **Ingeniería de Características:** Creación de la métrica `Cuentas_Diarias` y traducción técnica de variables para accesibilidad del negocio.
+3.  **Exploración Estadística (EDA):** Análisis de correlación de Pearson para validar hipótesis sobre cargos mensuales y tiempo de permanencia.
+
+
+
+## Hallazgos de Alto Impacto
+* **Tasa de Churn Baseline:** 25.72%.
+* **Factor Contractual:** El modelo "Mes a Mes" es el principal predictor de fuga, con una tasa de abandono drásticamente superior a los planes anuales.
+* **Ventana de Retención:** Los primeros **10 meses** son la etapa más crítica; superar este periodo reduce la probabilidad de evasión en un 60%.
+* **Sensibilidad al Precio:** Clientes con facturaciones superiores a la mediana ($70.30) muestran una correlación positiva con la cancelación.
+
+## Guía de Ejecución
+1.  **Clonar:** `git clone https://github.com/lindlabs/TelecomX-Churn-Analysis.git`
+2.  **Entorno:** Abrir el notebook `.ipynb` en Google Colab o Jupyter.
+3.  **Dependencias:** `pip install pandas matplotlib seaborn`
+4.  **Reproducción:** Ejecutar las celdas secuencialmente para observar la limpieza y generación de gráficas.
+
+---
+
+## Autor
+**Lindbergh Paredes**
+*Full Stack Developer & Systems Engineer*
+
+> "Combinando la robustez de la ingeniería de sistemas con la agilidad del desarrollo web y el poder de los datos."
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/tu-perfil)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-lightgrey?style=flat&logo=github)](https://github.com/lindlabs)
